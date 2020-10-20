@@ -6,4 +6,6 @@ Anyways, this is a theme that tries to stay as close to stock as possible, but t
 
 Request icons: https://docs.google.com/forms/d/1VQolyFXnoH7fL67IVDNKshS6sy_JBFaLxKiPHQMoHpY/edit
 
+Icons: (For stock users using Shortcuts) https://drive.google.com/file/d/1Mjlp8--IciLqWKzVLs_JVTmWS6c2-jCM/view?usp=drivesdk
+
 

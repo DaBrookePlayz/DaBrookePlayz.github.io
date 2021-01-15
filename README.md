@@ -11,3 +11,5 @@ Icons: (For stock users using Shortcuts) https://drive.google.com/file/d/1Mjlp8-
 
 # Leisu 1.1.0
 In this update, Ive added some new icons, some alternatives, and updated a few icons that needed to be fixed! If you have any suggestions, please tell me about them!
+Requests: https://docs.google.com/forms/d/1VQolyFXnoH7fL67IVDNKshS6sy_JBFaLxKiPHQMoHpY
+Icons: (For stock users) https://drive.google.com/file/d/1WIIcoiVv3zzFG9VTb7OEZ36L2ZpQXWa2/view?usp=drivesdk

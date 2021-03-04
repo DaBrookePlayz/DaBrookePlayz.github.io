@@ -1,0 +1,8 @@
+Origin: DaBrookePlayz
+Label: DaBrookePlayz's Repo
+Suite: stable
+Version: 1.0
+Codename: wenttoofar
+Architectures: iphoneos-arm
+Components: main
+Description: DaBrookePlayz's github repo

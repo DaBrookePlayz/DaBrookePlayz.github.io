@@ -1,11 +1,6 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Find me on Reddit</name>
-			<url>https://www.reddit.com/user/DaBrookePlayz</url>
-			<iconclass>fa fa-reddit</iconclass>
-		</link>
-		<link>
 			<name>Use this repo template</name>
 			<url>https://github.com/supermamon/Reposi3/</url>
 			<iconclass>fa fa-thumbs-up</iconclass>

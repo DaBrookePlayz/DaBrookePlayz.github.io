@@ -2,11 +2,9 @@ Package: com.dabrookeplayz.leisu
 Version: 1.1.2
 Section: Themes
 Maintainer: Brooke <bhallvin@gmail.com>
-Depends: firmware (<9.0)
+Depends: com.spark.snowboard
 Architecture: iphoneos-arm
 Filename: ./debs/com.dabrookeplayz.leisu
-Size: 0
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
 Description: This is a theme that tries to use similar icons to what stock is. The difference is that everything is a glyph, and they will look much nicer next to each other. This theme currently has 350+ icons and 30+ alternative icons.
 Name: Leisu Theme
 Author: Brooke <bhallvin@gmail.com>

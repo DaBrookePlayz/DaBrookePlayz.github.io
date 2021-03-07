@@ -1,0 +1,9 @@
+Origin: DaBrookePlayz's Repo
+Label: DaBrookePlayz's Repo
+Suite: stable
+Version: 1.0
+Codename: leisurepo
+Architectures: iphoneos-arm
+Components: main
+Description: My repo for Leisu.
+MD5Sum:

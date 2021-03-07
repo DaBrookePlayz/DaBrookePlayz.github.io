@@ -2,7 +2,7 @@ Package: com.dabrookeplayz.leisu
 Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Brooke <bhallvin@gmail.com>
-Filename: ./debs/com.dabrookeplayz.leisu_1.1.2_iphoneos-arm
+Filename: ./debs/com.dabrookeplayz.leisu_1.1.2_iphoneos-arm.deb
 Section: Themes
 Description: A simple theme.
 MD5sum: nvk3njjnv

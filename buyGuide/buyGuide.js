@@ -1,0 +1,3 @@
+function temp() {
+	alert("test");
+}

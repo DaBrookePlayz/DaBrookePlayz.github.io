@@ -1,6 +1,2 @@
-## Go to dabrookeplayz.github.io for the repo
-
-
-If you want to see any icons changed or added, go to this link ↓
-
-Requests: https://docs.google.com/forms/d/e/1FAIpQLSfbWfqAz9tt8bOSlqTIeNwpLryvBTghbfncvhsDTPvxv7pccw/viewform?usp=sf_link
+## Planning on moving stuff from a previous repo to here, for now tho its hosting an assignment
+For CSC105 website elements and computer parts.

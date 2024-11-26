@@ -1,3 +1,22 @@
-* {
-  margin: 0;
+body {
+	margin: 5%;
+	background-color: #4c5c7a;  
 } 
+
+p {
+	 
+}
+
+a {
+text-decoration: none;
+  color: LightSteelBlue;
+}
+
+.bottomBanner {
+	background-color: LightSteelBlue;    
+	text-align: center;
+	a {
+		text-decoration: none;
+		color: #4c5c7a;
+	}
+}

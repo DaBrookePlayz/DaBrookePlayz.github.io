@@ -4,19 +4,20 @@ body {
 } 
 
 p {
-	 
+	 font-size: 14px;
 }
 
 a {
-text-decoration: none;
-  color: LightSteelBlue;
+	text-decoration: none;
+	color: LightSteelBlue;
 }
 
 .bottomBanner {
 	background-color: LightSteelBlue;    
 	text-align: center;
-	a {
-		text-decoration: none;
-		color: #4c5c7a;
-	}
+}
+
+.bottomBanner a {
+	text-decoration: none;
+	color: #4c5c7a;
 }

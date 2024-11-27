@@ -36,17 +36,19 @@ button:hover {
 	color: LightSteelBlue;
 }
 
-div {
-	/*margin: 0 auto;
-	padding: 2%; */
+.main {
+	display: flex;
+ 	justify-content: center;
+	padding: 2%;
+	background-color: #4c5c7a;
+}
+
+.bottomBanner { 
 	background-color: #4c5c7a;
 	display:flex;
 	height:100%;
 	width:100%;
 	justify-content:center;
 	align-items:center;
-}
-
-.bottomBanner { 
 	text-align: center;
 }

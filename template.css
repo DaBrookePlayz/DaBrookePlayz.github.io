@@ -53,11 +53,6 @@ img {
 }
 
 .bottomBanner { 
-	background-color: #4c5c7a;
-	display:flex;
-	height:100%;
-	width:100%;
-	justify-content:center;
 	align-items:center;
 	text-align: center;
 }

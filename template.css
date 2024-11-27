@@ -1,6 +1,6 @@
 body {
 	margin: 5%;
-	background-color: #LightSteelBlue;  
+	background-color: LightSteelBlue;  
 } 
 
 p {
@@ -17,7 +17,6 @@ a {
 
 button {
 	border: none;
-	color: LightSteelBlue;
 	padding: 16px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -26,26 +25,24 @@ button {
 	margin: 4px 2px;
 	transition-duration: 0.25s;
 	cursor: pointer;
-	background-color: #4c5c7a; 
+	background-color: LightSteelBlue;
+  	color: #4c5c7a;
 	border-radius: 8px;
 	width: 33%;
 }
 
 button:hover {
-  background-color: LightSteelBlue;
-  color: #4c5c7a;
+	background-color: #4c5c7a;
+	color: LightSteelBlue;
 }
 
 .main {
 	margin: 2%;
-	background-color: #ff0000;
+	background-color: #4c5c7a;
 }
 
 .bottomBanner {
+	margin: 2%;
 	background-color: #4c5c7a;    
 	text-align: center;
-}
-
-.bottomBanner a {
-	color: #LightSteelBlue;
 }

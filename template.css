@@ -28,7 +28,7 @@ button {
 	background-color: LightSteelBlue;
   	color: #4c5c7a;
 	border-radius: 8px;
-	width: 46%;
+	width: 45%;
 }
 
 button:hover {
@@ -38,10 +38,9 @@ button:hover {
 
 .main {
 	padding: 2%;
-	margin: auto;
 	background-color: #4c5c7a;
-	/*justify-content:center;
-	align-items:center;*/
+	display: block;
+	margin: auto;
 }
 
 table {

@@ -37,7 +37,6 @@ button:hover {
 }
 
 .main {
-	display: flex;
  	justify-content: center;
 	padding: 2%;
 	background-color: #4c5c7a;

@@ -53,7 +53,7 @@ img {
 }
 
 .bottomBanner { 
-	display:inline-block;
+	justify-content: center;
 	text-align: center;
 }
 

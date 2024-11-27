@@ -11,12 +11,12 @@ p {
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #4c5c7a;
+	color: #LightSteelBlue;
 	font-size: 16px
 }
 
 button {
-	border: none;
+	border: 2px solid #LightSteelBlue;
 	padding: 16px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -37,12 +37,16 @@ button:hover {
 }
 
 .main {
-	margin: 2%;
+	padding: 2%;
 	background-color: #4c5c7a;
+	display: inline;
+    	float: none;
 }
 
 .bottomBanner {
-	margin: 2%;
+	padding: 2%;
 	background-color: #4c5c7a;    
 	text-align: center;
+	display: inline;
+    	float: none;
 }

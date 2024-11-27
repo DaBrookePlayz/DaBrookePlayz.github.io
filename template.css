@@ -27,11 +27,11 @@ a {
 }
 
 .button:hover {
-  background-color: #LightBlueSteel;
+  background-color: LightSteelBlue;
   color: #4c5c7a;
 }
 
-.mainBanner {
+.main {
 	margin: 2%;
 	color: #ff0000;
 }

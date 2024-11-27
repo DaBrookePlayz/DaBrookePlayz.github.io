@@ -1,15 +1,18 @@
 body {
 	margin: 5%;
-	background-color: #4c5c7a;  
+	background-color: #LightSteelBlue;  
 } 
 
 p {
-	 font-size: 16px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
 	text-decoration: none;
-	color: LightSteelBlue;
+	font-weight: bold;
+	color: #4c5c7a;
+	font-size: 16px
 }
 
 button {
@@ -28,22 +31,21 @@ button {
 	width: 33%;
 }
 
-.button:hover {
+button:hover {
   background-color: LightSteelBlue;
   color: #4c5c7a;
 }
 
 .main {
 	margin: 2%;
-	color: #ff0000;
+	background-color: #ff0000;
 }
 
 .bottomBanner {
-	background-color: LightSteelBlue;    
+	background-color: #4c5c7a;    
 	text-align: center;
 }
 
 .bottomBanner a {
-	text-decoration: none;
-	color: #4c5c7a;
+	color: #LightSteelBlue;
 }

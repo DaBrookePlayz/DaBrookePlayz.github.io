@@ -38,9 +38,10 @@ button:hover {
 
 .main {
 	padding: 2%;
+	margin: auto;
 	background-color: #4c5c7a;
-	justify-content:center;
-	align-items:center;
+	/*justify-content:center;
+	align-items:center;*/
 }
 
 table {

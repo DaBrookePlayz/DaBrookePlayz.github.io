@@ -12,12 +12,7 @@ a {
 	color: LightSteelBlue;
 }
 
-img {
-	width: 45%;
-	height: auto;
-}
-
-.button {
+button {
 	border: none;
 	color: LightSteelBlue;
 	padding: 16px 32px;

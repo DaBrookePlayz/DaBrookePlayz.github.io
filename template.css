@@ -12,6 +12,11 @@ a {
 	color: LightSteelBlue;
 }
 
+img {
+	width: 45%;
+	height: auto;
+}
+
 .button {
 	border: none;
 	color: LightSteelBlue;
@@ -19,11 +24,13 @@ a {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 24px;
 	margin: 4px 2px;
 	transition-duration: 0.25s;
 	cursor: pointer;
 	background-color: #4c5c7a; 
+	border-radius: 8px;
+	width: 33%;
 }
 
 .button:hover {

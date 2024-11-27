@@ -28,7 +28,7 @@ button {
 	background-color: LightSteelBlue;
   	color: #4c5c7a;
 	border-radius: 8px;
-	width: 44%;
+	width: 46%;
 }
 
 button:hover {
@@ -43,7 +43,7 @@ button:hover {
 }
 
 table {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 1%;
 }
 

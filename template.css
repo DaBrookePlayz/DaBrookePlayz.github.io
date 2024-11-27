@@ -23,6 +23,7 @@ button {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 24px;
+	font-weight: bold;
 	margin: 2%;
 	transition-duration: 0.25s;
 	cursor: pointer;
@@ -63,5 +64,5 @@ img {
 
 .bottomBanner a {
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 18px;
 }

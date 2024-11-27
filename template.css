@@ -36,7 +36,7 @@ button:hover {
 	color: LightSteelBlue;
 }
 
-.main {
+div {
 	padding: 2%;
 	background-color: #4c5c7a;
 }
@@ -61,5 +61,5 @@ img {
 }
 
 .bottomBanner a {
-	text-decorations: none;
+	text-decoration: none;
 }

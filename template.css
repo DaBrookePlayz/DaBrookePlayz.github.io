@@ -1,5 +1,5 @@
 body {
-	margin: 5%;
+	margin: 3%;
 	background-color: LightSteelBlue;  
 } 
 
@@ -37,16 +37,12 @@ button:hover {
 }
 
 .main {
-	padding: 2%;
+	margin: auto;
 	background-color: #4c5c7a;
-	display: inline;
-    	float: none;
 }
 
 .bottomBanner {
 	padding: 2%;
 	background-color: #4c5c7a;    
 	text-align: center;
-	display: inline;
-    	float: none;
 }

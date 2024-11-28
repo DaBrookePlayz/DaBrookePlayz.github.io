@@ -9,6 +9,19 @@ p {
 	color: LightSteelBlue;
 }
 
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: LightSteelBlue;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: LightSteelBlue;
+}
+
 a {
 	font-weight: bold;
 	font-size: 16px;

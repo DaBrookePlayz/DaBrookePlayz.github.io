@@ -44,7 +44,7 @@ div {
 }
 
 th, td {
-	/*border: 1px solid red;*/
+	border: 1px solid red;*/
 	padding: 1%;
 	max-width: 50%;
 }

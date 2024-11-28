@@ -44,8 +44,12 @@ div {
 }
 
 th, td {
-	border: 1px solid red;*/
+	border: 1px solid red;
 	padding: 1%;
+}
+
+td img {
+	max-width=50%
 }
 
 .bottomBanner { 

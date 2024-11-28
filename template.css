@@ -48,8 +48,8 @@ th, td {
 	padding: 1%;
 }
 
-td img {
-	max-width=50%
+img {
+	max-width=100%;
 }
 
 .bottomBanner { 

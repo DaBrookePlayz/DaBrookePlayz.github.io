@@ -10,16 +10,18 @@ p {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 52px;
 	font-weight: bold;
-	font-family: Gill Sans, sans-serif;
-	color: Pink;
+	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+	text-align: center;
+	color: #ffcdff;
 }
 
 h2 {
 	font-size: 24px;
-	font-family: "Gill Sans", sans-serif;
-	color: Pink;
+	font-weight: bold;
+	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+	color: #ffcdff;
 }
 
 a {

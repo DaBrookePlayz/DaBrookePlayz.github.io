@@ -5,7 +5,7 @@ body {
 
 p {
 	font-size: 16px;
-	font-family: Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	color: LightSteelBlue;
 }
 
@@ -27,8 +27,8 @@ h2 {
 a {
 	font-weight: bold;
 	font-size: 16px;
-	font-family: Helvetica, sans-serif;
-	color: Pink;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ffcdff;
 }
 
 button {
@@ -59,7 +59,7 @@ div {
 }
 
 th, td {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	padding: 1%;
 }
 

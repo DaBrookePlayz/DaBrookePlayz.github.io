@@ -5,28 +5,28 @@ body {
 
 p {
 	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	color: LightSteelBlue;
 }
 
 h1 {
 	font-size: 48px;
 	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	color: LightSteelBlue;
+	font-family: Gill Sans, sans-serif;
+	color: Pink;
 }
 
 h2 {
 	font-size: 24px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: LightSteelBlue;
+	font-family: "Gill Sans", sans-serif;
+	color: Pink;
 }
 
 a {
 	font-weight: bold;
 	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: LightSteelBlue;
+	font-family: Helvetica, sans-serif;
+	color: Pink;
 }
 
 button {

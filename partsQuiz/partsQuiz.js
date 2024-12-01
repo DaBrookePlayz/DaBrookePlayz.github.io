@@ -1,3 +1,1 @@
-function temp() {
-	alert("test");
-}
+

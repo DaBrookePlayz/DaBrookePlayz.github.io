@@ -1,3 +1,3 @@
-function temp() {
-	alert("test");
+function welcome() {
+	window.location.href = "https://dabrookeplayz.github.io/";
 }

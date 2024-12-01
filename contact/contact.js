@@ -1,4 +1,3 @@
-function temp() {
-	alert("test");
+function welcome() {
+	window.location.href = "https://dabrookeplayz.github.io/";
 }
-// not sure if this would even be needed ngl

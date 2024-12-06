@@ -13,11 +13,11 @@ function process() {
 	}
 	
 	if (!document.getElementById("question3answer1").checked) {
-		result += "Question 3 incorrect.\n";
+		result += "Question 3 incorrect.<br>";
 	}
 	
 	if (!document.getElementById("question4answer2").checked) {
-		result += "Question 4 incorrect.\n";
+		result += "Question 4 incorrect.<br>";
 	}
 	
 	if (!document.getElementById("question5answer3").checked) {
@@ -25,7 +25,7 @@ function process() {
 	}
 	
 	if (result == "") {
-		result = "No incorrect answers, good job\n";
+		result = "No incorrect answers, good job.";
 	}
 	
 	document.getElementById("feedback").innerHTML = result;

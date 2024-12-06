@@ -67,6 +67,12 @@ img {
 	max-width: 100%;
 }
 
+label {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: LightSteelBlue;
+}
+
 .bottomBanner { 
 	display:flex;
 	justify-content:center;

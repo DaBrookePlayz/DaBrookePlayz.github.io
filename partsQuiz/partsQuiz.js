@@ -32,5 +32,28 @@ function process() {
 }
 
 function reset() {
-	
+	document.getElementById("question1answer1").checked = false;
+	document.getElementById("question1answer2").checked = false;
+	document.getElementById("question1answer3").checked = false;
+	document.getElementById("question1answer4").checked = false;
+
+	document.getElementById("question2answer1").checked = false;
+	document.getElementById("question2answer2").checked = false;
+	document.getElementById("question2answer3").checked = false;
+	document.getElementById("question2answer4").checked = false;
+
+	document.getElementById("question3answer1").checked = false;
+	document.getElementById("question3answer2").checked = false;
+	document.getElementById("question3answer3").checked = false;
+	document.getElementById("question3answer4").checked = false;
+
+	document.getElementById("question4answer1").checked = false;
+	document.getElementById("question4answer2").checked = false;
+	document.getElementById("question4answer3").checked = false;
+	document.getElementById("question4answer4").checked = false;
+
+	document.getElementById("question5answer1").checked = false;
+	document.getElementById("question5answer2").checked = false;
+	document.getElementById("question5answer3").checked = false;
+	document.getElementById("question5answer4").checked = false;
 }

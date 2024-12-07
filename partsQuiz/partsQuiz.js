@@ -56,4 +56,7 @@ function reset() {
 	document.getElementById("question5answer2").checked = false;
 	document.getElementById("question5answer3").checked = false;
 	document.getElementById("question5answer4").checked = false;
+	
+	document.getElementById("feedback").innerHTML = "";
+	// if theres a better way to clear radio buttons, I didn't ask.
 }

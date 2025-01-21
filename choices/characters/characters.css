@@ -1,0 +1,64 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+} 
+
+html, body {
+	margin: 0;
+	height: 100%; 
+	overflow: hidden;
+	background-color: black;
+}
+
+.button {
+	color: white;
+	background-color: black;
+	border-color: white;
+	height: 8%;
+	margin: 1%;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	font-size: 20px;
+	top: 82.5%;
+	width: 15%;
+}
+
+.button.arrowButton {
+	font-size: 24px;
+	width: 7%;
+	top:72.5%;
+}
+
+img {
+	position: absolute;
+    left: 2.5%;
+	top: 2.5%;
+	width: 95%;
+	height: auto;
+}
+
+p {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+	position: absolute;
+    top: 74%;
+    left: 20%;
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.desc {
+	position: absolute;
+    top: 84%;
+    left: 20%;
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+

@@ -1,0 +1,82 @@
+* {
+	padding:0;
+	box-sizing: border-box;
+} 
+
+html, body {
+	height: 100%; 
+	overflow: hidden	
+}
+
+body {
+	background-color: black;
+}
+
+.button {
+	color: white;
+	background-color: black;
+	border-color: white;
+	width: 12%;
+	height: 6%;
+	margin: 1%;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	transform: translateY(-100%);
+}
+
+.scroll-up {
+ height: 96%;	
+ overflow: hidden;
+ position: relative;
+}
+
+.scroll-up .inner {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ 
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ 
+ /* Apply animation to this element */	
+ -moz-animation: scroll-up 120s linear infinite;
+ -webkit-animation: scroll-up 120s linear infinite;
+ animation: scroll-up 120s linear infinite;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+
+@-webkit-keyframes scroll-up {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes scroll-up {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%); 		
+ }
+ 
+ 100% { 
+ -moz-transform: translateY(-1000%); /* Browser bug fix */
+ -webkit-transform: translateY(-1000%); /* Browser bug fix */
+ transform: translateY(-1000%); /* looks to be (10320 / 1172 * 200%) + 200% */
+ }
+
+}
+
+img {
+width: 50%
+
+}

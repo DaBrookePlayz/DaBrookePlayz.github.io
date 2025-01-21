@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Project Choices</title>
+      <link rel="stylesheet" type="text/css" href="game.css">
+      <script type = "text/javascript" src="game.js"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   </head>
+   <body onLoad = "onLoad()">
+      <script>let FF_FOUC_FIX;</script> 
+      <div class = "mobile">
+         <p>This page can only be loaded on a computer!</p>
+      </div>
+      <div class = "content">
+         <div class = "fade-in-text" id = "agreement">
+            <p class="textAgree">This game features violence, suicide, and other mature themes.</p>
+            <button type="button" onclick="showVideo()" id="button" class="buttonAgree">I understand.</button> 
+         </div>
+         <video id="video" width="1920" height="1080" onended="onVideoEnded()" autoplay muted>
+            <source src="../assets/test.mp4" type="video/mp4"/>
+         </video>
+         <div class = "twoBtn" id = "twoBtn">
+            <button type="button" class="buttonChoice" onclick="btnProcess(21)" id = "btn21" style = "left: 20%; top: 67%;">Set text</button>
+            <button type="button" class="buttonChoice" onclick="btnProcess(22)" id = "btn22" style = "left: 60%; top: 67%;">Set text</button>
+         </div>
+         <div class = "threeBtn" id = "threeBtn">
+            <button type="button" class="buttonChoice" onclick="btnProcess(31)" id = "btn31" style = "left: 10%; top: 67%;">Set text</button>
+            <button type="button" class="buttonChoice" onclick="btnProcess(32)" id = "btn32" style = "left: 40%; top: 67%;">Set text</button>
+            <button type="button" class="buttonChoice" onclick="btnProcess(33)" id = "btn33" style = "left: 70%; top: 67%;">Set text</button>
+         </div>
+         <div class = "debug" id = "debug">
+            <p id = "activatedText" style = "top: 100%; left: 100%; -ms-transform: translate(-100%, -100%); transform: translate(-100%, -100%);"></p>
+            <p id = "savedText" style = "top: 100%; left: 0%; -ms-transform: translate(0%, -100%); transform: translate(0%, -100%);"></p>
+            <p id = "pointsText" style = "top: 0%; left: 0%; -ms-transform: translate(0%, 0%); transform: translate(0%, 0%);">
+            <p id = "fileText" style = "top: 0%; left: 100%; -ms-transform: translate(-100%, -0%); transform: translate(-100%, 0%);"></p>
+         </div>
+         <div class = "endingStuff" id = "ending" style = "font-size: 1.5em; display: none;">
+            <h1 id = "endingTypeText" class = "textEnding" style = "top: 20%;"></h1>
+            <p id = "endingStatusText" class = "textEnding" style = "top: 38%;"></p>
+            <p id = "endingInfoText" class = "textEnding" style = "top: 52%;"></p>
+            <button class = "buttonEnding" style = "left: 38%;" onclick="location.reload()">Restart Game</button> 
+            <button class = "buttonEnding" style = "left: 62%;" onclick="location.href = 'https://brookeplays.github.io/choices'">Back to Menu</button> 
+         </div>
+      </div>
+   </body>
+</html>

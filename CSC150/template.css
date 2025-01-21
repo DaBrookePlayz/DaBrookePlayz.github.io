@@ -1,0 +1,85 @@
+body {
+	margin: 3%;
+	background-color: LightSteelBlue;  
+} 
+
+p {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: LightSteelBlue;
+}
+
+h1 {
+	font-size: 52px;
+	font-weight: bold;
+	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+	text-align: center;
+	color: #ffcdff;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Tahoma,Verdana,Segoe,sans-serif; 
+	color: #ffcdff;
+}
+
+a {
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ffcdff;
+}
+
+button {
+	border: 2px solid LightSteelBlue;
+	padding: 32px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 2%;
+	transition-duration: 0.25s;
+	cursor: pointer;
+	background-color: LightSteelBlue;
+  	color: #4c5c7a;
+	border-radius: 8px;
+	width: 45%;
+}
+
+button:hover {
+	background-color: #4c5c7a;
+	color: LightSteelBlue;
+}
+
+div {
+	padding: 1%;
+	background-color: #4c5c7a;
+}
+
+th, td {
+	/* border: 1px solid red; */
+	padding: 1%;
+}
+
+img {
+	max-width: 100%;
+}
+
+label {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: LightSteelBlue;
+}
+
+.bottomBanner { 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.bottomBanner a {
+	text-decoration: none;
+	font-size: 18px;
+}

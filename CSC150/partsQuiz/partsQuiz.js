@@ -1,5 +1,5 @@
 function welcome() {
-	window.location.href = "https://dabrookeplayz.github.io/";
+	window.location.href = "https://dabrookeplayz.github.io/CSC150/";
 }
 
 function process() {

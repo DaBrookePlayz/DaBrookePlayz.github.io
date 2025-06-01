@@ -7,6 +7,7 @@ var pointsList = [0, 0, 0]; // endings that use points: 1, 2, 3
 var saved = JSON.parse(localStorage.getItem("key"));
 //var saved = [false, false, false, false, false, false, false, false, false, false, false]; //TODO: TEMPORARY FIX, USE ABOVE STATEMENT ON GITHUB, LOCALSTORAGE DOESN'T WORK PROPERLY ON NON-DOMAINS
 var activateList = [false, false, false, false, false, false, false];
+
 /* for activate list
 0: LAD1_W30_P1L7 activates RE_P1L11
 1: AGD_P2L3 activates RE_P2L6 and RE7_P2L8
@@ -16,7 +17,7 @@ var activateList = [false, false, false, false, false, false, false];
 5: AGD_P2L10 activates RE7_P3L2
 6: AE_P1L11 activates RE9_P3L2
 */
-// 3, 5, 7, 8, 4, 6, 2, 10, 9, 1
+
 function onLoad() {
     //video stuff
     video_player = document.getElementById("video");
@@ -53,7 +54,7 @@ function showVideo() { //Show Video Function to Add Display Property to Show the
     video_player.play();
 }
 
-function onVideoEnded() { // bitch lets have some FUN
+function onVideoEnded() { // boi lets have some FUN
 	switch (currentVideo) { // currentVideo is actually the video that just ended
 	    case "videos/E_P1L1.mp4":
 		    currentVideo = "videos/C_T8_P1L2.mp4";
@@ -152,7 +153,7 @@ function onVideoEnded() { // bitch lets have some FUN
 			currentVideo = "videos/GAD3_P2L6.mp4";
 			pointsList[2]++;
 			activateList[2] = true;
-            clearChoice();
+            		clearChoice();
 		    break;
 		case "videos/RE_P2L6.mp4": // all cutscenes with P2L6 use the same code
 		case "videos/GAD3_P2L6.mp4":
@@ -193,7 +194,7 @@ function onVideoEnded() { // bitch lets have some FUN
 		case "videos/C_T10_P2L9.mp4":
 			currentVideo = "videos/AGD_P2L10.mp4";
 			activateList[5] = true;
-            clearChoice();
+            		clearChoice();
 		    break;
 		case "videos/AGD_P2L10.mp4":
 			currentVideo = "videos/E_P3L1.mp4";
@@ -272,11 +273,11 @@ function onVideoEnded() { // bitch lets have some FUN
 		    break;
 		case "videos/C_T4_P3L4.mp4":
 			currentVideo = "videos/GN5_P3L5.mp4";
-            clearChoice();
+            		clearChoice();
 		    break;
 		case "videos/C_T3_P3L5.mp4":
 			currentVideo = "videos/UGN6_P3L6.mp4";
-            clearChoice();
+            		clearChoice();
 		    break;
 		case "videos/GN5_P3L5.mp4":
 			endingScreen(5);
@@ -321,7 +322,7 @@ function onVideoEnded() { // bitch lets have some FUN
 			endingScreen(6);
 		    break;
 	    default:
-		    console.log("F U C K");
+		    alert("something really broke this time");
 		    break;
 	}
 	
@@ -478,7 +479,7 @@ function btnProcess(type) {
 		case "videos/C_T7_P1L6.mp4":
 			switch (type) {
 				case 21: //LAD1_W30_P1L7
-					if (wpm(30,"she needs someone")) {
+					if (wpm(30, "she needs someone")) {
 						currentVideo = "videos/LAD1_W30_P1L7.mp4";
 						pointsList[0]++;
 						activateList[0] = true; // RE_P1L11 activated
@@ -494,7 +495,7 @@ function btnProcess(type) {
 		case "videos/C_T5_P1L9.mp4":
 			switch (type) {
 				case 31: //LD1_W25_P1L10
-					if (wpm(25,"this is not right")) {
+					if (wpm(25, "this is not right")) {
 						currentVideo = "videos/LD1_W25_P1L10.mp4";
 						pointsList[0]++;
 					} else {
@@ -554,7 +555,7 @@ function btnProcess(type) {
 		case "videos/C_T10_P2L9.mp4":
 			switch (type) {
 				case 21: //D_W35_P2L10
-					if (wpm(35,"i cannot do this alone")) {
+					if (wpm(35, "i cannot do this alone")) {
 						currentVideo = "videos/D_W35_P2L10.mp4";
 					} else {
 						currentVideo = "videos/AGD_P2L10.mp4";
@@ -626,7 +627,7 @@ function btnProcess(type) {
 		case "videos/C_T2_P3L6.mp4":
 			switch (type) {
 				case 21: //UN9_W40_P3L7
-					if (wpm(40,"i have to keep fighting")) { // may change to "i cannot give up now after coming so far"
+					if (wpm(40, "i have to keep fighting")) { // may change to "i cannot give up now after coming so far"
 						currentVideo = "videos/UN9_W40_P3L7.mp4";
 					} else {
 						currentVideo = "videos/GN4_P3L7.mp4";
@@ -658,12 +659,12 @@ function btnProcess(type) {
     
     clearChoice();
     refreshDebug(); // makes sure that points and activated are up to date
-	video_player.setAttribute("src", currentVideo);
+    video_player.setAttribute("src", currentVideo);
     video_player.play();
 }
 
 
-// obstacles related
+// obstacles related (not implemented)
 function timer(seconds) {
 
 }
